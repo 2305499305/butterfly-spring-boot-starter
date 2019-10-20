@@ -5,13 +5,13 @@
     <parent>
         <artifactId>butterfly-spring-boot</artifactId>
         <groupId>com.github.thierrysquirrel</groupId>
-        <version>1.0.0-RELEASE</version>
+        <version>1.0.1-RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>butterfly-spring-boot-autoconfigure</artifactId>
 
-    <name>butterfly-spring-boot</name>
+    <name>butterfly-spring-boot-autoconfigure</name>
     <description>butterfly-spring-boot-autoconfigure</description>
 
     <dependencies>

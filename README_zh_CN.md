@@ -1,20 +1,20 @@
 # butterfly-spring-boot-starter
 
-butterfly RocketMQ Spring Book Edition
+蝴蝶RocketMQ   SpringBoot 版
 
-[中文](./README_zh_CN.md)
+[English](./README.md)
 
-Support function:
-- [x] RPC Remote call
+支持功能：
+- [x] RPC远程调用
 
-# RPC Remote call： 
- Use the components provided by pine for external expansion    
- Provide 'half long connection' RPC tool for load balancing  
+# RPC远程调用： 
+ 使用松树提供的对外扩展的组件  
+ 提供负载均衡的'半长连接'RPC工具
  
 ## Quick Start
 
 ```xml
-<!--Adding dependencies to pom. XML-->
+<!--在pom.xml中添加依赖-->
         <dependency>
             <artifactId>butterfly-spring-boot-starter</artifactId>
             <groupId>com.github.thierrysquirrel</groupId>
@@ -22,16 +22,16 @@ Support function:
         </dependency>
 ``` 
 
- ### configuration file
+ ### 配置文件
  
  ```properties
  ## application.properties
-butterfly.butterfly-service-name="ServiceDemo" Service name
-butterfly.butterfly-service-url="127.0.0.1:5050" Butterfly service address
-butterfly.pine-service-url="127.0.0.1:6060" Pine service address,If you need a cluster 127.0.0.1:6060,127.0.0.1:6061,127.0.0.1:6062
+butterfly.butterfly-service-name="ServiceDemo" 服务名称
+butterfly.butterfly-service-url="127.0.0.1:5050" 蝴蝶服务地址
+butterfly.pine-service-url="127.0.0.1:6060" 松树服务地址,如果您需要集群 127.0.0.1:6060,127.0.0.1:6061,127.0.0.1:6062
  ```
 
- # Start Butterfly
+ # 启动Butterfly
  ```java
  @SpringBootApplication
  @EnableButterfly
@@ -43,7 +43,7 @@ butterfly.pine-service-url="127.0.0.1:6060" Pine service address,If you need a c
  }
  ```
 
-# RPC Producer 
+# RPC生产者 
 
  ```java
 @Flower
@@ -60,7 +60,7 @@ public class Producer {
 }
  ```
 
-# RPC Consumer
+# RPC消费者
 
  ```java
 @Butterfly("ServiceDemo")
@@ -73,7 +73,7 @@ public interface Consumer {
 }
  ```
 
-# Using RPC
+# 使用RPC
 
  ```java
 @RestController
