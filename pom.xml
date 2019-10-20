@@ -11,7 +11,7 @@
 
     <name>butterfly-spring-boot</name>
     <description>butterfly-spring-boot</description>
-    <url>https://github.com/ThierrySquirrel/pine-spring-boot-starter</url>
+    <url>https://github.com/ThierrySquirrel/butterfly-spring-boot-starter</url>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -76,9 +76,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/ThierrySquirrel/pine-spring-boot-starter.git</connection>
-        <developerConnection>scm:git:https://github.com/ThierrySquirrel/pine-spring-boot-starter.git</developerConnection>
-        <url>https://github.com/ThierrySquirrel/pine-spring-boot-starter</url>
+        <connection>scm:git:https://github.com/ThierrySquirrel/butterfly-spring-boot-starter.git</connection>
+        <developerConnection>scm:git:https://github.com/ThierrySquirrel/butterfly-spring-boot-starter.git</developerConnection>
+        <url>https://github.com/ThierrySquirrel/butterfly-spring-boot-starter</url>
         <tag>v${project.version}</tag>
     </scm>
 
